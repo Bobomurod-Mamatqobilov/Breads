@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		526C14422C5056E300CC36C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C14412C5056E300CC36C6 /* AppDelegate.swift */; };
-		526C14442C5056E300CC36C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C14432C5056E300CC36C6 /* SceneDelegate.swift */; };
 		526C14462C5056E300CC36C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C14452C5056E300CC36C6 /* ViewController.swift */; };
 		526C14492C5056E300CC36C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526C14472C5056E300CC36C6 /* Main.storyboard */; };
 		526C144B2C5056E500CC36C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526C144A2C5056E500CC36C6 /* Assets.xcassets */; };
 		526C144E2C5056E500CC36C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526C144C2C5056E500CC36C6 /* LaunchScreen.storyboard */; };
+		52EA0FFE2C50EFD8004E8C4F /* breads.json in Resources */ = {isa = PBXBuildFile; fileRef = 52EA0FFD2C50EFD8004E8C4F /* breads.json */; };
+		52EA10002C50F8A0004E8C4F /* AboutBreads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EA0FFF2C50F8A0004E8C4F /* AboutBreads.swift */; };
+		CE69A32D9DDA614C860E5E53 /* Pods_JSON_Exmaple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F96C9B83CB793D5D577D13 /* Pods_JSON_Exmaple.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CA67B9B42D5CD4A900DE26E /* Pods-JSON_Exmaple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON_Exmaple.release.xcconfig"; path = "Target Support Files/Pods-JSON_Exmaple/Pods-JSON_Exmaple.release.xcconfig"; sourceTree = "<group>"; };
 		526C143E2C5056E300CC36C6 /* JSON_Exmaple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSON_Exmaple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		526C14412C5056E300CC36C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		526C14432C5056E300CC36C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		526C14452C5056E300CC36C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		526C14482C5056E300CC36C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		526C144A2C5056E500CC36C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		526C144D2C5056E500CC36C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		526C144F2C5056E500CC36C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EA0FFD2C50EFD8004E8C4F /* breads.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breads.json; sourceTree = "<group>"; };
+		52EA0FFF2C50F8A0004E8C4F /* AboutBreads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutBreads.swift; sourceTree = "<group>"; };
+		85F96C9B83CB793D5D577D13 /* Pods_JSON_Exmaple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSON_Exmaple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED63B180E0C15E0FE2A34711 /* Pods-JSON_Exmaple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON_Exmaple.debug.xcconfig"; path = "Target Support Files/Pods-JSON_Exmaple/Pods-JSON_Exmaple.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE69A32D9DDA614C860E5E53 /* Pods_JSON_Exmaple.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				526C14402C5056E300CC36C6 /* JSON_Exmaple */,
 				526C143F2C5056E300CC36C6 /* Products */,
+				DDECAE460E2CA95E4B76A303 /* Pods */,
+				9CAB967460D51EA26DC8C4C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +66,32 @@
 			isa = PBXGroup;
 			children = (
 				526C14412C5056E300CC36C6 /* AppDelegate.swift */,
-				526C14432C5056E300CC36C6 /* SceneDelegate.swift */,
+				52EA0FFF2C50F8A0004E8C4F /* AboutBreads.swift */,
 				526C14452C5056E300CC36C6 /* ViewController.swift */,
 				526C14472C5056E300CC36C6 /* Main.storyboard */,
 				526C144A2C5056E500CC36C6 /* Assets.xcassets */,
 				526C144C2C5056E500CC36C6 /* LaunchScreen.storyboard */,
 				526C144F2C5056E500CC36C6 /* Info.plist */,
+				52EA0FFD2C50EFD8004E8C4F /* breads.json */,
 			);
 			path = JSON_Exmaple;
+			sourceTree = "<group>";
+		};
+		9CAB967460D51EA26DC8C4C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85F96C9B83CB793D5D577D13 /* Pods_JSON_Exmaple.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDECAE460E2CA95E4B76A303 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED63B180E0C15E0FE2A34711 /* Pods-JSON_Exmaple.debug.xcconfig */,
+				1CA67B9B42D5CD4A900DE26E /* Pods-JSON_Exmaple.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 526C14522C5056E500CC36C6 /* Build configuration list for PBXNativeTarget "JSON_Exmaple" */;
 			buildPhases = (
+				C5BBD4FFC99947864B5CA7AD /* [CP] Check Pods Manifest.lock */,
 				526C143A2C5056E300CC36C6 /* Sources */,
 				526C143B2C5056E300CC36C6 /* Frameworks */,
 				526C143C2C5056E300CC36C6 /* Resources */,
+				3E3362D08620736F4B12E20C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52EA0FFE2C50EFD8004E8C4F /* breads.json in Resources */,
 				526C144E2C5056E500CC36C6 /* LaunchScreen.storyboard in Resources */,
 				526C144B2C5056E500CC36C6 /* Assets.xcassets in Resources */,
 				526C14492C5056E300CC36C6 /* Main.storyboard in Resources */,
@@ -133,14 +163,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E3362D08620736F4B12E20C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSON_Exmaple/Pods-JSON_Exmaple-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSON_Exmaple/Pods-JSON_Exmaple-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JSON_Exmaple/Pods-JSON_Exmaple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5BBD4FFC99947864B5CA7AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSON_Exmaple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		526C143A2C5056E300CC36C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52EA10002C50F8A0004E8C4F /* AboutBreads.swift in Sources */,
 				526C14462C5056E300CC36C6 /* ViewController.swift in Sources */,
 				526C14422C5056E300CC36C6 /* AppDelegate.swift in Sources */,
-				526C14442C5056E300CC36C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +275,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +338,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +359,7 @@
 		};
 		526C14532C5056E500CC36C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED63B180E0C15E0FE2A34711 /* Pods-JSON_Exmaple.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +387,7 @@
 		};
 		526C14542C5056E500CC36C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CA67B9B42D5CD4A900DE26E /* Pods-JSON_Exmaple.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
